@@ -8,15 +8,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#E8C58F;
-    --ink-soft:#1d1815;
-    --cream:#090401;
-    --stone:#A79A87;
-    --terracotta:#C1663F;
-    --terracotta-soft:#8f4a2c;
-    --teal:#2E6660;
-    --teal-soft:#1c433f;
-    --line:rgba(243,233,219,0.14);
+    --ink:#FAFCFB;
+    --ink-soft:#EFF6F8;
+    --cream:#1C3444;
+    --stone:#5E7C8C;
+    --terracotta:#D6428C;
+    --terracotta-soft:#8f2f61;
+    --teal:#1E88C7;
+    --teal-soft:#135f8a;
+    --lemon:#F0C33D;
+    --line:rgba(20,50,68,0.13);
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -48,8 +49,8 @@
     position:relative;
     padding:6vh 6vw;
     background:
-      radial-gradient(ellipse at 20% 10%, rgba(27,110,130,0.40), transparent 55%),
-      radial-gradient(ellipse at 85% 90%, rgba(232,98,42,0.28), transparent 55%),
+      radial-gradient(ellipse at 20% 10%, rgba(214,66,140,0.16), transparent 55%),
+      radial-gradient(ellipse at 85% 90%, rgba(30,136,199,0.24), transparent 55%),
       var(--ink);
   }
   .hero .eyebrow{margin-bottom:1.4rem;opacity:0;animation:rise 1s ease forwards 0.2s;}
@@ -114,7 +115,7 @@
     display:block;
     width:6px;height:6px;
     border-radius:50%;
-    background:var(--terracotta);
+    background:var(--lemon);
     margin:0 auto 6px;
   }
   .scroll-cue{
@@ -207,14 +208,14 @@
     transform:translateY(-2px);
   }
   .day p{
-    color:#D9CDBC;
+    color:#3D5568;
     font-size:0.97rem;
     max-width:62ch;
   }
   .day ul{
     margin-top:0.6rem;
     padding-left:1.1rem;
-    color:#D9CDBC;
+    color:#3D5568;
     font-size:0.95rem;
   }
   .day li{margin-bottom:0.25rem;}
@@ -233,7 +234,7 @@
     margin:2.6rem 0 1rem;
     padding:1.6rem 1.8rem;
     border-left:2px solid var(--teal);
-    background:linear-gradient(90deg,rgba(46,102,96,0.14),transparent 70%);
+    background:linear-gradient(90deg,rgba(30,136,199,0.12),transparent 70%);
   }
   .callout .eyebrow{color:var(--teal);}
   .callout p{margin-top:0.5rem;color:var(--cream);font-size:1rem;}
